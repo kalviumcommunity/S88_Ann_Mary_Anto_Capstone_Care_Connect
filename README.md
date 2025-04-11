@@ -12,52 +12,6 @@ Problem Statement
 
 Many families are unsure where to search and ultimately rely on friends or outdated printed directories. Conversely, many certified nurses have difficulty securing flexible opportunities for jobs where their skills are needed. In both instances, there is a clear disconnect between patients and providers — there simply is not a secure, centralized, trustworthy platform that matches home-based healthcare. Care-Connect is here to help close the gap. Our platform is easy to use, safe, and affordable, and puts power into the hands of families who need care and nurses looking for meaningful work.
 
-Existing Applications
-
-A number of platforms exist in the healthcare space, offering nurse booking or caregiver services, including:
- • Practo, which is primarily for doctor appointments and offers nurses in select locations.
-• Care.com doesn't specifically focus on nurses but offers a large directory of caregivers. Features relating to booking or nurse parts are limited.
-• Portea is a home healthcare service; however it's more similar to a traditional agency than a booking service.
- • 1mg (Tata Health) which is focused on medicine delivery and diagnostics, and only provides limited nurses to support at home.
-
-What makes Care-Connect Unique?
-
-Care-Connect provides a competitive advantage with features that include:
-
- • Nurse-Focused Profiles: Providing credentials, services, experience, and availability for Nurses.
-• Live Availability Booking: Scheduling and booking in real-time to eliminate the waiting and delays.
-• Role-Based Experience: Customer and Nurses have independent, specialized dashboards and flows through the app.
-• End-to-End Ease: No delays from third parties or agency barriers, it is all fully integrated into the platform.
-• Independent & Scalable: Empowering freelance nurses, not just an agency platform.
-• Security & Trust: All login, access, and profile check-ins for secure and trusted interactions.
-• Smart Service Matching: Smart filters connect the right user to the right nurse by Visit Type, location and availability.
- 
-Tools & Software Used
-
-Category Tools / Libraries
-Frontend React.js, Tailwind CSS, React Router
-Backend Node.js, Express.js
-Database MongoDB, Mongoose
-Authentication Firebase
-Auth or JSON Web Tokens (JWT)
-API Testing Postman
-Version Control Git, GitHub
-UI Design Figma
-Deployment Render / Vercel
-Package Management npm or yarn
-
-
-Conclusion
-
-Care-Connect is a helpful and valuable solution to ease in the booking of home healthcare. It provides good value to a family that has a need for home healthcare and to the nurses looking to provide that care by ensuring a simple user experience, secure transactions, and a direct connection to the nurse. Finally, through modern tools and effective design, Care-Connect will solve a real need and will be a great example of an effective full-stack project.
-
- References
-
-1. Practo – https://www.practo.com
-2. Care.com – https://www.care.com
-3. Portea Medical – https://www.portea.com
-4. Tata 1mg – https://www.1mg.com
-
 Project Plan
 
 
