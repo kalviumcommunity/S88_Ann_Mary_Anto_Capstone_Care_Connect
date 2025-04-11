@@ -79,4 +79,4 @@ Day 44 (Tuesday): Backend deployed on Render
 Day 45 (Wednesday): Test the live app
 Day 46 (Thursday): Write README with pictures
 Day 47 (Friday): Optional: Demo video
-Day 48 (Saturday): Final polish / extra features
+Day 48 (Saturday): Final polish / extra features.
