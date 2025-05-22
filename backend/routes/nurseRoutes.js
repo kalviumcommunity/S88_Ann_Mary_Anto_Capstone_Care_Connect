@@ -1,9 +1,11 @@
 import express from "express"
 
-import {getNurse} from "../controller/nurse.controller.js";
+import {getNurse,createNurse} from "../controller/nurse.controller.js";
 
 const router=express.Router();
 
 router.get("/", getNurse)
+
+router.post("/",createNurse)
 
 export default router;
