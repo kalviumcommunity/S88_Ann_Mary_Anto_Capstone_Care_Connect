@@ -39,11 +39,11 @@ const nurseSchema = new mongoose.Schema({
     trim: true
   },
   certifications: {
-    type: [String], // Array of strings
+    type: [String],
     default: []
   }
 }, {
-  timestamps: true // Automatically adds createdAt & updatedAt
+    timestamps: true
 });
 
 const Nurse = mongoose.model('Nurse', nurseSchema);
