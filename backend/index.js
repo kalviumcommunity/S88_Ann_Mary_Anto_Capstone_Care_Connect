@@ -6,6 +6,7 @@ import cors from 'cors';
 
 import nurseRoutes from './routes/nurseRoutes.js';
 
+
 dotenv.config(); // Load .env variables
 
 const app = express();
@@ -18,6 +19,7 @@ app.use(cors());
 
 // Routes
 app.use('/nurses', nurseRoutes);
+
 
 // Default route
 app.get('/', (req, res) => {
@@ -39,4 +41,3 @@ mongoose.connect(MONGO_URI, {
 .catch((error) => {
   console.error('❌ MongoDB connection error:', error);
 });
-
