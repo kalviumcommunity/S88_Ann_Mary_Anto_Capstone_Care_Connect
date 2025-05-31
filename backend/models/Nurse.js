@@ -42,9 +42,21 @@ const nurseSchema = new mongoose.Schema({
     type: [String],
     default: []
   }
+
 }, {
     timestamps: true
 });
+
+NurseSchema.pre('save', async function (next) {
+  if (!this.isModified('password')) return next();
+  this.password = await bcrypt.hash(this.password, 10);
+  next();
+});
+
+// Compare password method
+NurseSchema.methods.comparePassword = function (candidatePassword) {
+  return bcrypt.compare(candidatePassword, this.password);
+};
 
 const Nurse = mongoose.model('Nurse', nurseSchema);
 
